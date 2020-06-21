@@ -15,6 +15,10 @@ $ cd my_project
 $ python manage.py startapp blog
 $ python manage.py runserver 0.0.0.0:8080
 
+$ python manage.py makemigrations blog
+$ python manage.py migrate blog
+
+
 http://127.0.0.1:8000/
 ```
 
@@ -40,3 +44,21 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 ```
+
+blog/admin.py
+
+```py
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
+
+# http://127.0.0.1:8000/admin/
+```
+### Create user
+
+```py
+$ python manage.py createsuperuser
+```
+
+
