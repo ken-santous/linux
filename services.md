@@ -24,4 +24,11 @@ $ /etc/init.d/ufw restart
 $ /etc/init.d/ufw status
 ```
 
+List unit files
+
+```sh
+$ sudo systemctl list-unit-files
+```
+
+
 # Dillinger website
