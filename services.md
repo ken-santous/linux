@@ -24,12 +24,19 @@ $ /etc/init.d/ufw restart
 $ /etc/init.d/ufw status
 ```
 
+Systemctl disable/enable name_of_service.service 
 
+```sh
+$ sudo systemctl disable tor.service
+$ sudo systemctl enable tor.service
+```
 Systemctl unmask name_of_service.service 
 
 ```sh
-$ sudo systemctl unmask tor
+$ sudo systemctl unmask mysql
+$ sudo systemctl mask mysql
 ```
+
 
 List unit files
 
