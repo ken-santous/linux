@@ -31,3 +31,18 @@ Change permanent for all your new shell sessions
 $ echo ". torsocks on" >> ~/.bashrc
 $ echo ". torsocks off" >> ~/.bashrc
 ```
+
+To disable Tor for your current shell 
+
+```sh
+$ source torsocks off
+```
+
+Enable Tor Control Port
+
+```sh
+$ torpass=$(tor --hash-password "my-tor-password")
+```
+
+#### link https://linuxconfig.org/install-tor-on-ubuntu-18-04-bionic-beaver-linux
+
