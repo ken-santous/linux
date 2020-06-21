@@ -24,6 +24,13 @@ $ /etc/init.d/ufw restart
 $ /etc/init.d/ufw status
 ```
 
+
+Systemctl unmask name_of_service.service 
+
+```sh
+$ sudo systemctl unmask tor
+```
+
 List unit files
 
 ```sh
