@@ -38,6 +38,14 @@ To disable Tor for your current shell
 $ source torsocks off
 ```
 
+## important
+
+Restart Tor to apply changes:
+```sh
+$ sudo /etc/init.d/tor restart
+```
+
+
 Enable Tor Control Port
 
 ```sh
