@@ -24,11 +24,11 @@ Think of it like this: “-v <host direcoty>:<container directory>”.
   
 $ docker run -v ~/Pentest:/Pentest -t -i kalilinux/kali-linux-docker /bin/bash
 
-Install Kali tools
+##Install Kali tools
 
-# apt update
-# apt install metasploit-framework
-# msfconsole
+#### apt update
+#### apt install metasploit-framework
+#### msfconsole
 
 References
 https://docs.docker.com/install/linux/linux-postinstall/
